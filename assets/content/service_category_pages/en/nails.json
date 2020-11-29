@@ -7,5 +7,6 @@
     "pedicure"
   ],
   "image": "/img/nails.jpg",
-  "order": 1
+  "order": 1,
+  "slug": "nails"
 }
