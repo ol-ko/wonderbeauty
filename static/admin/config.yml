@@ -112,6 +112,10 @@ collections:
         widget: 'number'
         required: true
         i18n: duplicate
+      - label: 'Image'
+        name: 'image'
+        widget: 'image'
+        i18n: duplicate
       - label: 'Page summary'
         name: 'summary'
         widget: 'text'
