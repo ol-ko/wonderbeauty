@@ -5,13 +5,13 @@
         <nuxt-link :to="localePath(`services/${slug(service.title)}`)">
           <img
             :srcset="
-              `/img/services/${slug(service.title)}_888x599.jpg 888px,
-               /img/services/${slug(service.title)}_552x372.jpg 552px,
-               /img/services/${slug(service.title)}_444x299.jpg 444,
-               /img/services/${slug(service.title)}_276x186.jpg 276px`
+              `/img/${slug(service.title)}_888x599.jpg 888px,
+               /img/${slug(service.title)}_552x372.jpg 552px,
+               /img/${slug(service.title)}_444x299.jpg 444,
+               /img/${slug(service.title)}_276x186.jpg 276px`
             "
             sizes="(max-width: 599px) 100vw, (max-width: 959px) 50vw, 200px"
-            :src="`/img/services/${slug(service.title)}_552x372.jpg`"
+            :src="`/img/${slug(service.title)}_552x372.jpg`"
             :alt="service"
           />
         </nuxt-link>
