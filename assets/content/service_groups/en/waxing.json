@@ -1,6 +1,14 @@
 {
   "services": [
-    "underarm"
+    "underarm",
+    "upper-lip",
+    "eyebrows",
+    "full-face",
+    "full-leg",
+    "half-leg",
+    "full-arm",
+    "half-arm",
+    "bikini-brazilian"
   ],
   "title": "Waxing"
 }
