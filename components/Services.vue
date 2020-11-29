@@ -12,7 +12,7 @@
             "
             sizes="(max-width: 599px) 100vw, (max-width: 959px) 50vw, 200px"
             :src="`/img/${service.slug}_552x372.jpg`"
-            :alt="service"
+            :alt="service.title"
           />
         </nuxt-link>
       </div>
