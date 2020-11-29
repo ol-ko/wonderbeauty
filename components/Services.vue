@@ -2,7 +2,7 @@
   <div :class="$style.services">
     <div v-for="service in services" :class="$style.service">
       <div :class="$style.img">
-        <nuxt-link :to="localePath(`services/${service.slug}`)">
+        <nuxt-link :to="localePath(`/services/${service.slug}`)">
           <img
             :srcset="
               `/img/${service.slug}_888x599.jpg 888px,
@@ -17,7 +17,7 @@
         </nuxt-link>
       </div>
       <div>
-        <nuxt-link :to="localePath(`services/${service}`)">
+        <nuxt-link :to="localePath(`/services/${service.slug}`)">
           <h4>{{ service.title }}</h4>
         </nuxt-link>
 
