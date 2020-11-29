@@ -10,8 +10,8 @@ i18n:
   locales: [en, de, ru]
   default_locale: en
 
-media_folder: static/images
-public_folder: /images
+media_folder: static/img
+public_folder: /img
 
 # Docs: https://www.netlifycms.org/docs/configuration-options/#collections
 collections:
