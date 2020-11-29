@@ -1,4 +1,7 @@
 {
   "order": 3,
-  "slug": "massage"
+  "slug": "massage",
+  "service_groups": [
+    "haircuts"
+  ]
 }
