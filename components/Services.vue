@@ -2,16 +2,16 @@
   <div :class="$style.services">
     <div v-for="service in services" :class="$style.service">
       <div :class="$style.img">
-        <nuxt-link :to="localePath(`services/${slug(service.title)}`)">
+        <nuxt-link :to="localePath(`services/${service.slug}`)">
           <img
             :srcset="
-              `/img/${slug(service.title)}_888x599.jpg 888px,
-               /img/${slug(service.title)}_552x372.jpg 552px,
-               /img/${slug(service.title)}_444x299.jpg 444,
-               /img/${slug(service.title)}_276x186.jpg 276px`
+              `/img/${service.slug}_888x599.jpg 888px,
+               /img/${service.slug}_552x372.jpg 552px,
+               /img/${service.slug}_444x299.jpg 444,
+               /img/${service.slug}_276x186.jpg 276px`
             "
             sizes="(max-width: 599px) 100vw, (max-width: 959px) 50vw, 200px"
-            :src="`/img/${slug(service.title)}_552x372.jpg`"
+            :src="`/img/${service.slug}_552x372.jpg`"
             :alt="service"
           />
         </nuxt-link>
@@ -28,8 +28,6 @@
 </template>
 
 <script>
-import slug from '@/helpers/slug';
-
 export default {
   props: {
     categories: Array,
@@ -38,11 +36,6 @@ export default {
   computed: {
     services() {
       return this.categories.filter(category => category !== this.currentCategory)
-    }
-  },
-  methods: {
-    slug(str) {
-      return slug(str);
     }
   }
 }
