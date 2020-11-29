@@ -1,4 +1,7 @@
 {
   "order": 4,
-  "slug": "eyebrows-eyelashes"
+  "slug": "eyebrows-eyelashes",
+  "service_groups": [
+    "eyebrows"
+  ]
 }
