@@ -1,6 +1,14 @@
 {
   "services": [
-    "underarm-1"
+    "underarm-1",
+    "upper-lip-1",
+    "eyebrows-1",
+    "full-face-1",
+    "full-leg-1",
+    "half-leg-1",
+    "full-arm-1",
+    "half-arm-1",
+    "bikini-brazilian-1"
   ],
   "title": "Sugaring"
 }
