@@ -6,5 +6,6 @@
   "image": "/img/nails.jpg",
   "title": "",
   "summary": "",
-  "order": 1
+  "order": 1,
+  "slug": "nails"
 }

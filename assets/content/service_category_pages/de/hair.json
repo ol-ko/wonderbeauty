@@ -3,5 +3,6 @@
     "haircuts"
   ],
   "order": 2,
-  "image": "/img/eyebrows-eyelashes_276x186.jpg"
+  "image": "/img/eyebrows-eyelashes_276x186.jpg",
+  "slug": "hair"
 }
