@@ -1,7 +1,7 @@
 {
   "services": [
-    "basic-manicure",
-    "manicure-with-color-polish"
+    "basic-pedicure",
+    "pedicure-with-color-polish"
   ],
   "title": "Pedicure"
 }

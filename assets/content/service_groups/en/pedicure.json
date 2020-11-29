@@ -2,6 +2,14 @@
   "title": "Pedicure",
   "services": [
     "basic-pedicure",
-    "pedicure-with-color-polish"
+    "pedicure-with-color-polish",
+    "pedicure-with-gel-polish",
+    "french-pedicure",
+    "cracked-heel-treatment",
+    "ingrown-toenail",
+    "medical-pedicure",
+    "toenail-repair",
+    "mens-pedicure",
+    "childrens-pedicure"
   ]
 }
