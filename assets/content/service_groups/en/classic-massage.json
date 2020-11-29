@@ -2,6 +2,12 @@
   "title": "Classic massage",
   "description": "Classic massage has a healing effect on the entire body. It relieves stress and fatigue, improves blood circulation, tightens and strengthens muscles, relieves pain in the back and neck, normalises blood pressure, improves one’s immune system, improves skin condition, boosts one’s mood and normalises one’s sleeping routine. Even after one session, you will feel like you were reborn. That being said, a course of classical massage sessions works wonders.",
   "services": [
-    "classic-full-body-massage"
+    "classic-full-body-massage",
+    "classic-full-body-massage-1",
+    "neck-shoulders-and-back-massage",
+    "neck-shoulders-and-back-massage-1",
+    "legs-massage",
+    "legs-massage-1",
+    "relaxing-foot-massage"
   ]
 }
