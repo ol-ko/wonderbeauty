@@ -1,0 +1,11 @@
+{
+  "title": "Nails",
+  "summary": "Manicure, pedicure, SPA procedures, broken and peeling nail treatments, express services.",
+  "description": "#### Expert nail care\n\nOur nail care professionals are certified experts that sincerely love their work and never stop learning.\n\n#### Certified premium materials\n\nWe never compromise on the quality of tools or materials, which makes our manicures flawless and long-lasting.\n\n#### Safety is a priority\n\nAll our instruments go through a multiple-stage hospital-grade sterilisation and disinfection process and we only use disposable files.\n\n#### Nails breaking or peeling off?\n\nOur nail experts use modern proven ways to strengthen, restore, treat and align your nails. We can work even with the most difficult cases.\n\n#### In a hurry?\n\nOur staff will provide you with a “four-hands” or express manicure service: a perfect result twice as fast!",
+  "service_groups": [
+    "manicure",
+    "pedicure"
+  ],
+  "image": "/img/nails.jpg",
+  "order": 1
+}

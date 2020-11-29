@@ -1,0 +1,63 @@
+@import 'variables';
+
+@mixin clear-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+@mixin clearfix {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+@mixin striped-background {
+  $stripe1Color: #c9e3e0;
+  $stripe2Color: #c7e1de;
+  $stripe3Color: #aecbd0;
+
+  background-image: repeating-linear-gradient(
+      0.3deg,
+      $stripe1Color,
+      $stripe1Color 10px,
+      transparent 10px,
+      transparent 50px
+  ),
+  repeating-linear-gradient(
+      -0.2deg,
+      transparent,
+      transparent 18px,
+      $stripe2Color 18px,
+      $stripe2Color 26px,
+      transparent 26px,
+      transparent 50px
+  ),
+  repeating-linear-gradient(
+      0.2deg,
+      transparent,
+      transparent 35px,
+      $stripe3Color 35px,
+      $stripe3Color 41px,
+      transparent 41px,
+      transparent 50px
+  );
+}
+
+@mixin composed-border {
+  border: 2px solid $color-brand-primary;
+
+  &:before {
+    content: '';
+    position: absolute;
+    transform: rotate(1deg);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border: 2px solid rgba($color-brand-primary, 0.7);
+    box-sizing: content-box;
+  }
+}

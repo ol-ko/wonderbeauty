@@ -1,0 +1,133 @@
+site_url: https://wonderbeauty.netlify.app/
+logo_url: https://wonderbeauty.netlify.app/icon.png
+
+backend:
+  name: git-gateway
+  branch: master
+
+i18n:
+  structure: multiple_folders
+  locales: [en, de, ru]
+  default_locale: en
+
+media_folder: static/images
+public_folder: /images
+
+# Docs: https://www.netlifycms.org/docs/configuration-options/#collections
+collections:
+  - label: 'Site settings'
+    name: 'site'
+    files:
+      - label: 'Info'
+        name: 'info'
+        file: 'assets/content/site/info.json'
+        format: 'json'
+        editor:
+          preview: false
+        fields:
+          - { label: Site Name, name: sitename, widget: string, hint: 'This is used for the site title' }
+          - {
+              label: Site Description,
+              name: sitedescription,
+              widget: string,
+              hint: 'This is used as descriptive text for links that link to this site',
+            }
+          - {
+              label: Site Language,
+              name: sitelang,
+              widget: string,
+              pattern: ['^[a-z]{2}([-])?([A-Za-z]{2})?$', 'Must match "xx" or "xx-XX" syntax (ex. "en" or "sv-SE")'],
+            }
+  - name: 'services'
+    folder: 'assets/content/services'
+    create: true
+    format: 'json'
+    slug: '{{title}}'
+    label: 'Services'
+    label_singular: 'Service'
+    i18n: true
+    fields:
+      - label: 'Service title'
+        name: 'title'
+        widget: 'string'
+        i18n: true
+      - label: 'Price (without the currency)'
+        name: 'price'
+        widget: 'string'
+        i18n: duplicate
+      - label: 'Service description'
+        name: 'description'
+        widget: 'string'
+        i18n: true
+        required: false
+      - label: 'Duration (minutes)'
+        name: 'duration'
+        widget: 'string'
+        i18n: duplicate
+        required: false
+  - name: 'service_groups'
+    folder: 'assets/content/service_groups'
+    create: true
+    format: 'json'
+    slug: '{{title}}'
+    label: 'Service groups'
+    label_singular: 'Service group'
+    i18n: true
+    fields:
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+        required: true
+        i18n: true
+      - label: 'Description'
+        name: 'description'
+        widget: 'text'
+        i18n: true
+        required: false
+      - label: 'Services'
+        name: 'services'
+        widget: 'relation'
+        collection: 'services'
+        required: true
+        multiple: true
+        value_field: '{{slug}}'
+        search_fields: ['title']
+        display_fields: ['title', 'price']
+  - name: 'service_category_page'
+    folder: 'assets/content/service_category_pages'
+    create: true
+    format: 'json'
+    slug: '{{title}}'
+    label: 'Service category pages'
+    label_singular: 'Service category page'
+    i18n: true
+    fields:
+      - label: 'Page title'
+        name: 'title'
+        widget: 'string'
+        required: true
+        i18n: true
+      - label: 'Order'
+        name: 'order'
+        widget: 'number'
+        required: true
+        i18n: duplicate
+      - label: 'Page summary'
+        name: 'summary'
+        widget: 'text'
+        required: true
+        i18n: true
+      - label: 'Page description'
+        name: 'description'
+        widget: 'markdown'
+        required: false
+        i18n: true
+      - label: 'Service groups'
+        name: 'service_groups'
+        required: true
+        widget: 'relation'
+        collection: 'service_groups'
+        multiple: true
+        value_field: '{{slug}}'
+        search_fields: [ 'title' ]
+        display_fields: [ 'title' ]

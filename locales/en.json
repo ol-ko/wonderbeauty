@@ -1,0 +1,19 @@
+{
+  "back": "Back to \"{text}\"",
+  "servicesPrices": "Service and prices",
+  "min": "min",
+  "services": {
+    "nails": "Nails"
+  },
+  "nav": {
+    "studio": "Studio",
+    "services": "Our services",
+    "contact": "Contact us"
+  },
+  "instagram": {
+    "alt": "Wonderbeauty Instagram account"
+  },
+  "facebook": {
+    "alt": "Wonderbeauty Facebook group"
+  }
+}

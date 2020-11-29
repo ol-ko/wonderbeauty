@@ -1,0 +1,10 @@
+{
+  "service_groups": [
+    "manicure",
+    "pedicure"
+  ],
+  "image": "/img/nails.jpg",
+  "title": "",
+  "summary": "",
+  "order": 1
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Wonderbeauty",
+  "version": "1.0.0",
+  "description": "Wonderbeauty.ch website",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@nuxtjs/markdownit": "^1.2.6",
+    "nuxt": "^2.14.6",
+    "nuxt-i18n": "^6.15.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/pwa": "^3.0.2",
+    "@nuxtjs/svg": "^0.1.12",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "fibers": "^5.0.0",
+    "netlify-cli": "^2.64.1",
+    "path": "^0.12.7",
+    "prettier": "^1.16.4",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
+    "webpack": "^4.0.0"
+  }
+}

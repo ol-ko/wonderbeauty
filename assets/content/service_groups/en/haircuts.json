@@ -1,0 +1,10 @@
+{
+  "title": "Haircuts",
+  "description": "Including wash",
+  "services": [
+    "womens-haircut",
+    "girls-haircut",
+    "mens-haircut",
+    "boys-haircut"
+  ]
+}
