@@ -1,7 +1,7 @@
 <template>
   <div :class="$style.categoryPage">
     <BackLink path="services" :text="$t('services')"></BackLink>
-    <h1>{{ $t('services.' + category.name) }}</h1>
+    <h1>{{ category.title }}</h1>
     <div v-if="category.description"
          v-html="$md.render(category.description)"
          :class="$style.highlights"
