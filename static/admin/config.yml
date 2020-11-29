@@ -123,7 +123,7 @@ collections:
         widget: 'relation'
         collection: 'service_groups'
         multiple: true
-        value_field: 'slug'
+        value_field: '{{slug}}'
         search_fields: [ 'title' ]
         display_fields: [ 'title' ]
       - label: 'Order'
