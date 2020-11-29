@@ -2,6 +2,12 @@
   "order": 3,
   "slug": "massage",
   "service_groups": [
-    "haircuts"
+    "classic-massage"
+  ],
+  "services": [
+    "vacuum-massage",
+    "relaxing-aroma-massage",
+    "sport-massage",
+    "taping"
   ]
 }

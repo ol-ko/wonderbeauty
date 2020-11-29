@@ -5,6 +5,11 @@
   "order": 3,
   "slug": "massages-and-body-treatments",
   "service_groups": [
-    "classic-massage"
+    "classic-massage",
+    "anti-cellulite-treatments",
+    "lymphatic-drainage",
+    "honey-massage",
+    "gua-sha",
+    "other-massages"
   ]
 }
