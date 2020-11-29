@@ -14,8 +14,9 @@
       <section v-for="group in category.service_groups">
         <h3>{{group.title}}</h3>
         <p v-if="group.description"
-           :class="$style.subcategoryDescription"
-           v-html="$md.render(group.description)"></p>
+           :class="$style.subcategoryDescription">
+          {{group.description}}
+        </p>
         <ul :class="$style.priceListItems">
           <li v-for="service in group.services">
             <div :class="$style.titleAndPrice">
