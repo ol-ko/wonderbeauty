@@ -10,5 +10,27 @@
   ],
   "image": "/img/eyebrows-eyelashes_276x186.jpg",
   "order": 2,
-  "slug": "hair"
+  "slug": "hair",
+  "highlights": [
+    {
+      "heading": "Expert hair care",
+      "text": "Our hairdressers continuously improve their cutting and dyeing techniques by attending masterclasses, seminars and learning from the industry experts."
+    },
+    {
+      "heading": "We listen. We create. We advise",
+      "text": "We make our clients' ideas come true. Not sure exactly, what kind of hairstyle you want? Our stylists can come up with suggestions taking your unique features and taste into account."
+    },
+    {
+      "heading": "Only quality products",
+      "text": "We use the best professional luxury products that provide gentle hair care."
+    },
+    {
+      "heading": "Dry and brittle hair? Split ends?",
+      "text": "Our hair experts are able to solve the most complex problems."
+    },
+    {
+      "heading": "We help to maintain results",
+      "text": "We will advise you how to maintain a new hairstyle, preserve hair color for a long time and which products to choose."
+    }
+  ]
 }
