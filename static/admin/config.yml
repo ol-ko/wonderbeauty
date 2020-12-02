@@ -135,6 +135,7 @@ collections:
         name: 'highlights'
         widget: 'list'
         summary: '{{fields.heading}}'
+        i18n: true
         fields:
           - label: 'Heading'
             name: 'heading'
