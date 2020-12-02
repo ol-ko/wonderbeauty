@@ -112,11 +112,22 @@ collections:
         widget: 'text'
         required: true
         i18n: true
-      - label: 'Page description'
-        name: 'description'
-        widget: 'markdown'
-        required: false
+      - label: 'Highlights'
+        name: 'highlights'
+        widget: 'list'
+        summary: '{{fields.heading}}'
         i18n: true
+        fields:
+          - label: 'Heading'
+            name: 'heading'
+            widget: 'string'
+            required: true
+            i18n: true
+          - label: 'Text'
+            name: 'text'
+            widget: string
+            required: true
+            i18n: true
       - label: 'Service groups'
         name: 'service_groups'
         required: true
