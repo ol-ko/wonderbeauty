@@ -1,11 +1,8 @@
 <template>
   <div :class="$style.categoryPage">
-    <BackLink path="services" :text="$t('services')"></BackLink>
+    <BackLink path="/services" :text="$t('nav.services')"></BackLink>
     <h1>{{ category.title }}</h1>
-    <div v-if="category.description"
-         v-html="$md.render(category.description)"
-         :class="$style.highlights"
-    ></div>
+    <Highlights :highlights="category.highlights"></Highlights>
     <a name="prices"></a>
 
     <section>
@@ -34,8 +31,14 @@
 
 <script>
 import * as SITE_INFO from '@/assets/content/site/info.json'
+import Highlights from '@/components/Highlights.vue';
+import BackLink from '@/components/BackLink.vue';
 
 export default {
+  components: {
+    Highlights,
+    BackLink
+  },
   data() {
     return {
       currency: SITE_INFO.sitecurrency
@@ -69,10 +72,6 @@ export default {
 <style lang="scss" module>
 @import '~/assets/css/mixins.scss';
 @import '~/assets/css/variables.scss';
-
-.highlights {
-
-}
 
 .description {
   margin-top: 10px;

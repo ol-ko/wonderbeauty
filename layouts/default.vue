@@ -46,7 +46,7 @@ export default {
 @import '@/assets/css/variables.scss';
 
 .container {
-  max-width: 960px;
+  max-width: 1024px;
   margin: 0 auto;
 }
 .card {
