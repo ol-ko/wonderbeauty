@@ -18,7 +18,7 @@
       </div>
       <div>
         <nuxt-link :to="localePath(`/services/${service.slug}`)">
-          <h4>{{ service.title }}</h4>
+          <h2>{{ service.title }}</h2>
         </nuxt-link>
 
         <p>{{ service.summary }}</p>

@@ -6,14 +6,6 @@ body {
   line-height: $line-height-base;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 1em 0;
-
-  ul > li:first-child > &:first-child {
-    margin-top: 0;
-  }
-}
-
 h1 {
   font-size: $font-size-xxl;
 }
