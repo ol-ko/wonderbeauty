@@ -112,22 +112,6 @@ collections:
         widget: 'text'
         required: true
         i18n: true
-      - label: 'Highlights'
-        name: 'highlights'
-        widget: 'list'
-        summary: '{{fields.heading}}'
-        i18n: true
-        fields:
-          - label: 'Heading'
-            name: 'heading'
-            widget: 'string'
-            required: true
-            i18n: true
-          - label: 'Text'
-            name: 'text'
-            widget: string
-            required: true
-            i18n: true
       - label: 'Service groups'
         name: 'service_groups'
         required: true
@@ -147,3 +131,18 @@ collections:
         widget: 'string'
         required: true
         i18n: duplicate
+      - label: 'Highlights'
+        name: 'highlights'
+        widget: 'list'
+        summary: '{{fields.heading}}'
+        fields:
+          - label: 'Heading'
+            name: 'heading'
+            widget: 'string'
+            required: true
+            i18n: true
+          - label: 'Text'
+            name: 'text'
+            widget: string
+            required: true
+            i18n: true
