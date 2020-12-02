@@ -2,6 +2,9 @@
   "order": 5,
   "slug": "permanent-makeup",
   "service_groups": [
-    "eyebrows-permanent-makeup"
+    "eyebrows-permanent-makeup",
+    "eyelids",
+    "lips",
+    "combo-treatment"
   ]
 }
