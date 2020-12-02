@@ -2,7 +2,12 @@
   "order": 3,
   "slug": "massage",
   "service_groups": [
-    "classic-massage"
+    "classic-massage",
+    "anti-cellulite-treatments",
+    "lymphatic-drainage",
+    "honey-massage",
+    "gua-sha",
+    "other-massages"
   ],
   "services": [
     "vacuum-massage",
