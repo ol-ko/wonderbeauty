@@ -3,6 +3,10 @@
     <BackLink path="/services" :text="$t('nav.services')"></BackLink>
     <h1>{{ category.title }}</h1>
     <Highlights :highlights="category.highlights"></Highlights>
+    <div v-if="category.description"
+         v-html="$md.render(category.description)"
+         :class="$style.highlights"
+    ></div>
     <a name="prices"></a>
 
     <section>

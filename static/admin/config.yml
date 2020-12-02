@@ -112,6 +112,11 @@ collections:
         widget: 'text'
         required: true
         i18n: true
+      - label: 'Page description'
+        name: 'description'
+        widget: 'markdown'
+        required: false
+        i18n: true
       - label: 'Service groups'
         name: 'service_groups'
         required: true
