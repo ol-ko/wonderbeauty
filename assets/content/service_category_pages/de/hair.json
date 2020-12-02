@@ -1,9 +1,8 @@
 {
   "service_groups": [
-    "haircuts",
-    "styling-and-wash",
-    "hair-coloring",
-    "hair-treatments"
+    "manicure",
+    "pedicure",
+    "additional-nail-services"
   ],
   "order": 2,
   "image": "/img/eyebrows-eyelashes_276x186.jpg",
