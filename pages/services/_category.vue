@@ -30,6 +30,10 @@
         </ul>
       </section>
     </section>
+    <section>
+      <h2>{{ $t('otherServices') }}</h2>
+      <Services :categories="categories" :currentCategory="category"></Services>
+    </section>
   </div>
 </template>
 
@@ -37,21 +41,26 @@
 import * as SITE_INFO from '@/assets/content/site/info.json'
 import Highlights from '@/components/Highlights.vue';
 import BackLink from '@/components/BackLink.vue';
+import Services from '@/components/Services.vue';
 
 export default {
   components: {
     Highlights,
-    BackLink
+    BackLink,
+    Services
   },
   data() {
     return {
       currency: SITE_INFO.sitecurrency
     }
   },
-  async asyncData({ params, payload, app}) {
+  async asyncData({ params, payload, app, env}) {
     if (payload) {
       return { category: {...payload, name: params.category} }
     }
+
+    const categoryPromises = env.serviceCategories.map(serviceCategory => require(`@/assets/content/service_category_pages/${app.i18n.locale}/${serviceCategory}.json`));
+    const categories = await Promise.all(categoryPromises);
 
     const category = await require(`@/assets/content/service_category_pages/${app.i18n.locale}/${params.category}.json`);
 
@@ -67,7 +76,8 @@ export default {
     }
 
     return {
-      category: { ...category, name: params.category }
+      category: { ...category, name: params.category },
+      categories: categories.sort((a, b) =>  a.order - b.order)
     }
   }
 }

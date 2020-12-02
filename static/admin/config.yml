@@ -38,6 +38,31 @@ collections:
               widget: string,
               pattern: ['^[a-z]{2}([-])?([A-Za-z]{2})?$', 'Must match "xx" or "xx-XX" syntax (ex. "en" or "sv-SE")'],
             }
+  - label: 'Home page'
+    name: 'homepage'
+    i18n: true
+    files:
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+        i18n: true
+        required: true
+      - label: 'Highlights'
+        name: 'highlights'
+        widget: 'list'
+        summary: '{{fields.heading}}'
+        i18n: true
+        fields:
+          - label: 'Heading'
+            name: 'heading'
+            widget: 'string'
+            required: true
+            i18n: true
+          - label: 'Text'
+            name: 'text'
+            widget: string
+            required: true
+            i18n: true
   - name: 'services'
     folder: 'assets/content/services'
     create: true

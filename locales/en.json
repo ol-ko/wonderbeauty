@@ -1,6 +1,7 @@
 {
   "back": "Back to \"{text}\"",
   "servicesPrices": "Services and prices",
+  "otherServices": "Other services",
   "min": "min",
   "services": {
     "nails": "Nails"

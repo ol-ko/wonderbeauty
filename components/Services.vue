@@ -18,7 +18,7 @@
       </div>
       <div>
         <nuxt-link :to="localePath(`/services/${service.slug}`)">
-          <h2>{{ service.title }}</h2>
+          <h4>{{ service.title }}</h4>
         </nuxt-link>
 
         <p>{{ service.summary }}</p>
@@ -35,7 +35,11 @@ export default {
   },
   computed: {
     services() {
-      return this.categories.filter(category => category !== this.currentCategory)
+      if (!this.currentCategory) {
+        return this.categories;
+      }
+
+      return this.categories.filter(category => category.title !== this.currentCategory.title)
     }
   }
 }
