@@ -17,7 +17,7 @@
 &amp;q=Riedmatt+4,+6300+Zug" allowfullscreen="allowfullscreen"></iframe>
         <section>
           <h3>{{ $t('parking')}}</h3>
-          <p>{{ parking }}.</p>
+          <p>{{ parking }}</p>
         </section>
       </section>
     </div>
