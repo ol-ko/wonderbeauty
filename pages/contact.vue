@@ -1,11 +1,9 @@
 <template>
   <section>
-    <h1>Contact us</h1>
+    <h1>{{ $t('nav.contact') }}</h1>
     <div :class="$style.contact">
       <section :class="$style.appointment">
-        <h3>
-          Appointments
-        </h3>
+        <h3>{{ $t('appointments') }}</h3>
         <p>
           <strong>Olesya Plakhotna</strong><br>
           <a href="tel:+41765777649">+41 76 57 77 649</a><br>
@@ -23,12 +21,12 @@
         </p>
       </section>
       <section :class="$style.map">
-        <h3>Our address</h3>
+        <h3>{{ $t('address')}}</h3>
         <p>Riedmatt 4, 6330 Zug</p>
         <iframe width="100%" height="450" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCYGXUgVMb4Ox24h0UlFSAX04260Sbs7PE
-&amp;q=Riedmatt+4,+6300+Zug" allowfullscreen="allowfullscreen" style="border: 0px;"></iframe>
+&amp;q=Riedmatt+4,+6300+Zug" allowfullscreen="allowfullscreen"></iframe>
         <section>
-          <h3>Parking</h3>
+          <h3>{{ $t('parking')}}</h3>
           <p>Outdoor parking spaces (number 1 - 5) are reserved for our clients.</p>
         </section>
       </section>
@@ -37,19 +35,30 @@
 </template>
 
 <style lang="scss" module>
-.contact {
-  display: flex;
-}
-.appointment {
-  flex: 0 0 40%;
+@import '~/assets/css/variables.scss';
 
-  h3 {
-    margin-top: 0;
+.map{
+  iframe {
+    border: 0;
+    background: $color-lightgrey;
   }
 }
 
-.map {
-  margin-top: 0;
-  flex: 0 0 60%;
+@media (min-width: $viewport-lg-min) {
+  .contact {
+    display: flex;
+  }
+  .appointment {
+    flex: 0 0 40%;
+
+    h3 {
+      margin-top: 0;
+    }
+  }
+
+  .map {
+    margin-top: 0;
+    flex: 0 0 60%;
+  }
 }
 </style>

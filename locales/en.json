@@ -2,6 +2,9 @@
   "back": "Back to \"{text}\"",
   "servicesPrices": "Services and prices",
   "otherServices": "Other services",
+  "appointments": "Appointments",
+  "address": "Our address",
+  "parking": "Parking",
   "min": "min",
   "services": {
     "nails": "Nails"

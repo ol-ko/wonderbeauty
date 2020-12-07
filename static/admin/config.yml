@@ -40,7 +40,10 @@ collections:
             }
   - label: 'Pages'
     name: 'pages'
-    i18n: true
+    i18n:
+      structure: single_file
+      locales: [ en, de, ru ]
+      default_locale: en
     files:
       - file: "assets/content/pages/homepage.json"
         label: 'Homepage'
