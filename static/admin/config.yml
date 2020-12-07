@@ -67,12 +67,12 @@ collections:
             widget: string
             required: true
             i18n: true
-  - name: 'contactUs'
+  - name: 'contact-us'
     label: 'Contact us'
     folder: 'assets/content/pages'
-      create: true
-      format: 'json'
-      slug: '{{title}}'
+    create: true
+    format: 'json'
+    slug: '{{title}}'
     fields:
       - label: 'Contacts'
         name: 'contacts'
