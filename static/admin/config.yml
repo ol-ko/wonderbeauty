@@ -105,7 +105,7 @@ collections:
         widget: 'string'
         i18n: true
   - name: 'services'
-    folder: 'assets/content/pages'
+    folder: 'assets/content/services'
     create: true
     format: 'json'
     slug: '{{title}}'
