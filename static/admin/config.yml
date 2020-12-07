@@ -59,6 +59,7 @@ collections:
             widget: 'list'
             summary: '{{fields.heading}}'
             i18n: true
+            required: false
             fields:
               - label: 'Heading'
                 name: 'heading'
