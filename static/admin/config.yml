@@ -40,14 +40,14 @@ collections:
             }
   - label: 'Pages'
     name: 'pages'
+    i18n:
+      structure: single_file
+      locales: [ en, de, ru ]
+      default_locale: en
     files:
       - file: "assets/content/pages/homepage.json"
         label: 'Homepage'
         name: 'homepage'
-        i18n:
-          structure: single_file
-          locales: [ en, de, ru ]
-          default_locale: en
         fields:
           - label: 'Title'
             name: 'title'
@@ -73,10 +73,6 @@ collections:
       - file: "assets/content/pages/contacts.json"
         label: 'Contacts'
         name: 'contact'
-        i18n:
-          structure: single_file
-          locales: [ en, de, ru ]
-          default_locale: en
         fields:
           - label: 'Contacts'
             name: 'contacts'
