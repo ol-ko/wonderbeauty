@@ -41,7 +41,7 @@ collections:
   - name: 'homepage'
     label: 'Homepage'
     folder: 'assets/content/pages'
-    create: true
+    create: false
     format: 'json'
     slug: 'homepage'
     i18n: true
