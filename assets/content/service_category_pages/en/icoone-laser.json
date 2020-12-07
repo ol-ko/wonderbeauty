@@ -1,0 +1,19 @@
+{
+  "title": "Icoone Laser",
+  "services": [
+    "icoone-laser-massage"
+  ],
+  "summary": "cool",
+  "description": "very cool",
+  "service_groups": [
+    "icoone-laser-services"
+  ],
+  "order": 2,
+  "slug": "icoone",
+  "highlights": [
+    {
+      "heading": "hh",
+      "text": "aaa"
+    }
+  ]
+}
