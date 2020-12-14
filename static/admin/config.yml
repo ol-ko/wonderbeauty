@@ -167,6 +167,7 @@ collections:
     label: 'Service category pages'
     label_singular: 'Service category page'
     i18n: true
+    preview_path: "services/{{title}}"
     fields:
       - label: 'Page title'
         name: 'title'
