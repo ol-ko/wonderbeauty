@@ -167,7 +167,6 @@ collections:
     label: 'Service category pages'
     label_singular: 'Service category page'
     i18n: true
-    preview_path: "services/{{title}}"
     fields:
       - label: 'Page title'
         name: 'title'
@@ -196,11 +195,6 @@ collections:
       - label: 'Order'
         name: 'order'
         widget: 'number'
-        required: true
-        i18n: duplicate
-      - label: 'Slug'
-        name: 'slug'
-        widget: 'string'
         required: true
         i18n: duplicate
       - label: 'Highlights'
