@@ -79,6 +79,7 @@ export default {
   background: none;
   text-transform: uppercase;
   height: 44px;
+  width: 48px;
   line-height: 44px;
   font-weight: bold;
   color: $color-brand-primary;
@@ -104,6 +105,15 @@ export default {
   background: white;
   outline: 2px solid $color-brand-primary;
   z-index: 1;
-  margin-left: -41px;
+  width: 48px;
+
+  a {
+    display: block;
+    width: 100%;
+  }
+
+  a + a {
+    border-top: 2px solid $color-brand-primary;
+  }
 }
 </style>
