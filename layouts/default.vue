@@ -12,12 +12,15 @@
           </a>
         </div>
       </div>
-<!--      <LanguageSwitch></LanguageSwitch>-->
       <MainNavigation></MainNavigation>
     </header>
-    <div :class="[$style.card, $style.main]">
+    <main :class="[$style.card, $style.main]">
       <nuxt />
-    </div>
+    </main>
+    <footer :class="[$style.card, $style.footer]">
+      <Logo :class="$style.logo"></Logo>
+      <LanguageSwitch :class="$style.languageSwitch"></LanguageSwitch>
+    </footer>
   </div>
 </template>
 
@@ -57,6 +60,29 @@ export default {
 .main {
   padding-top: 0;
 }
+
+.footer {
+  margin-top: 1rem;
+  display: flex;
+
+  .logo {
+    display: none;
+    flex: 1 0 auto;
+
+    img {
+      height: 44px;
+    }
+
+    @media (min-width: $viewport-md-min) {
+      display: block;
+    }
+  }
+
+  .languageSwitch {
+    flex-grow: 0;
+  }
+}
+
 .metaNavigation {
   flex: 1 0 auto;
 }
