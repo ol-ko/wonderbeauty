@@ -2,8 +2,11 @@
   <div :class="$style.container">
     <header :class="$style.header">
       <div :class="$style.card">
-        <Logo :class="$style.logo"></Logo>
-        <div :class="[$style.socialMediaLinks, $style.metaNavigation]">
+        <div :class="$style.logoAndLanguage">
+          <Logo :class="$style.logo"></Logo>
+          <LanguageSwitch :class="$style.languageSwitch" mode="dropdown"></LanguageSwitch>
+        </div>
+        <div :class="$style.socialMediaLinks">
           <a href="https://www.instagram.com/wonderbeauty_zug/">
             <img src="~/assets/images/instagram_logo.svg" :alt="$t('instagram.alt')">
           </a>
@@ -62,7 +65,7 @@ export default {
 }
 
 .logo img {
-  width: 200px;
+  width: 180px;
 
   @media (min-width: $viewport-md-min) {
     width: auto;
@@ -71,7 +74,6 @@ export default {
 
 .footer {
   border-top: 1px solid $color-brand-primary;
-
 
   .logo {
     display: none;
@@ -97,18 +99,45 @@ export default {
 }
 
 .metaNavigation {
-  flex: 1 0 auto;
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logoAndLanguage {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 0 100%;
+
+  @media (min-width: $viewport-md-min) {
+    flex: 1 1 100%;
+  }
 }
 
 .header {
   .card {
     display: flex;
+    flex-wrap: wrap;
+
+    @media (min-width: $viewport-md-min) {
+      flex-wrap: nowrap;
+    }
+  }
+
+  .languageSwitch {
+    flex: 0 0 auto;
   }
 }
 
 .socialMediaLinks {
   display: flex;
-  justify-content: flex-end;
+  flex: 1 0 100%;
+  margin-bottom: -10px;
+
+  @media (min-width: $viewport-md-min) {
+    flex: 0 0 auto;
+    margin-bottom: 0;
+  }
 
   img {
     width: 24px;
