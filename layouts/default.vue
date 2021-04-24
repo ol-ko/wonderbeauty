@@ -61,20 +61,33 @@ export default {
   padding-top: 0;
 }
 
+.logo img {
+  width: 200px;
+
+  @media (min-width: $viewport-md-min) {
+    width: auto;
+  }
+}
+
 .footer {
-  margin-top: 1rem;
-  display: flex;
+  border-top: 1px solid $color-brand-primary;
+
 
   .logo {
     display: none;
-    flex: 1 0 auto;
+  }
 
-    img {
-      height: 44px;
-    }
+  @media (min-width: $viewport-md-min) {
+    display: flex;
+    border: none;
+    margin-top: 1rem;
 
-    @media (min-width: $viewport-md-min) {
-      display: block;
+    .logo {
+      flex: 1 0 auto;
+
+      img {
+        height: 44px;
+      }
     }
   }
 
