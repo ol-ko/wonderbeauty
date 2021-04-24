@@ -1,10 +1,31 @@
 {
-  "order": 5,
-  "slug": "permanent-makeup",
+  "title": "Permanent makeup",
+  "summary": "Permanent makeup for lips, eyelids, eyebrows.",
+  "description": "",
   "service_groups": [
     "eyebrows-permanent-makeup",
     "eyelids",
     "lips",
     "combo-treatment"
+  ],
+  "order": 5,
+  "slug": "permanent-makeup",
+  "highlights": [
+    {
+      "heading": "Correct or enhance your appearance",
+      "text": "Perfect makeup that doesn't need to be applied and rinsed off daily? Permanent makeup is not only that. It can \"open up\" your eyes, make your face more expressive, visually enlarge your eyes or lips, adjust their shape, even out asymmetries, mask any scars and other skin defects."
+    },
+    {
+      "heading": "Alternative to plastic surgery",
+      "text": "The effect of permanent makeup in some cases is comparable to plastic surgery - only, unlike the prior, it is an absolutely safe and fast procedure that does not require any long preparation, surgical intervention, or long recovery."
+    },
+    {
+      "heading": "Natural look",
+      "text": "Experts working at our studio achieve absolutely natural looking results."
+    },
+    {
+      "heading": "Long lasting results",
+      "text": "The result will remain with you for years!"
+    }
   ]
 }

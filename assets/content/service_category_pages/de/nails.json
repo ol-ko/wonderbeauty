@@ -1,12 +1,34 @@
 {
+  "title": "Nails",
+  "summary": "Manicure, pedicure, SPA procedures, broken and peeling nail treatments, express services.",
   "service_groups": [
     "manicure",
     "pedicure",
     "additional-nail-services"
   ],
   "image": "/img/nails.jpg",
-  "title": "",
-  "summary": "",
   "order": 1,
-  "slug": "nails"
+  "slug": "nails",
+  "highlights": [
+    {
+      "heading": "Expert nail care",
+      "text": "Our nail care professionals are certified experts that sincerely love their work and never stop learning."
+    },
+    {
+      "heading": "Certified premium materials",
+      "text": "We never compromise on the quality of tools or materials, which makes our manicures flawless and long-lasting."
+    },
+    {
+      "heading": "Safety is a priority",
+      "text": "All our instruments go through a multiple-stage hospital-grade sterilisation and disinfection process and we only use disposable files."
+    },
+    {
+      "heading": "Nails breaking or peeling off?",
+      "text": "Our nail experts use modern proven ways to strengthen, restore, treat and align your nails. We can work even with the most difficult cases."
+    },
+    {
+      "heading": "In a hurry?",
+      "text": "Our staff will provide you with a “four-hands” or express manicure service: a perfect result twice as fast!"
+    }
+  ]
 }

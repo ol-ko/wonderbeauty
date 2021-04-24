@@ -1,6 +1,9 @@
 {
+  "title": "Massages and body treatments",
+  "summary": "Classic, sports, relaxing massages. Anti-cellulite treatments. Body wraps.",
+  "description": "",
   "order": 3,
-  "slug": "massage",
+  "slug": "massages-and-body-treatments",
   "service_groups": [
     "classic-massage",
     "anti-cellulite-treatments",
@@ -9,10 +12,18 @@
     "gua-sha",
     "other-massages"
   ],
-  "services": [
-    "vacuum-massage",
-    "relaxing-aroma-massage",
-    "sport-massage",
-    "taping"
+  "highlights": [
+    {
+      "heading": "Various massages",
+      "text": "We offer all kinds of massages: classic, sports, relaxing as well as complex treatments aimed at body shaping and fighting cellulite. Our body wraps will be a perfect add-on to the your massage program."
+    },
+    {
+      "heading": "Massage experts",
+      "text": "Our team of experienced professionals masters various techniques brilliantly and will help you choose the type of massage that is optimal for your physical condition and goals."
+    },
+    {
+      "heading": "Best products and equipment",
+      "text": "The use of quality products and equipment guarantees safety and maximum efficiency of all our treatments."
+    }
   ]
 }

@@ -1,4 +1,29 @@
 {
+  "title": "Eyebrows and eyelashes",
+  "summary": "Eyebrow shaping and coloring. Eyelash extensions, treatments and coloring.",
+  "description": "",
+  "service_groups": [
+    "eyebrows",
+    "eyelashes"
+  ],
   "order": 4,
-  "slug": "eyebrows-eyelashes"
+  "slug": "eyebrows-and-eyelashes",
+  "highlights": [
+    {
+      "heading": "Variety of techniques and effects",
+      "text": "Fancy natural eyelashes that look natural? Or would you rather prefer Hollywood volume? Whatever your preference is, our experts are able to make it happen."
+    },
+    {
+      "heading": "Safety means quality materials",
+      "text": "We only use the best non-toxic professional materials and high quality tools. Our experts will perform tests for allergic reactions before the procedure."
+    },
+    {
+      "heading": "Individual approach",
+      "text": "We take the eye shape, colour and other unique features, as well as style of each client into account, helping to reveal and emphasise the natural beauty."
+    },
+    {
+      "heading": "Enhancing natural eyelashes",
+      "text": "Lengthening and adding volume to natural eyelashes through the process of lamination. The look becomes more expressive, eyelashes look thicker and longer - no need for daily makeup."
+    }
+  ]
 }
