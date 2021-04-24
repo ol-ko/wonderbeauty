@@ -1,6 +1,20 @@
 {
   "back": "Zurück zu \"{text}\"",
-  "services": {
-    "nails": "Manicure und Pedicure"
+  "servicesPrices": "Leistungen und Preise",
+  "otherServices": "Andere Leistungen",
+  "appointments": "Termine",
+  "address": "Unsere Addresse",
+  "parking": "Parken",
+  "min": "min",
+  "nav": {
+    "studio": "Studio",
+    "services": "Unsere Leistungen",
+    "contact": "Kontakt"
+  },
+  "instagram": {
+    "alt": "Wonderbeauty Instagram"
+  },
+  "facebook": {
+    "alt": "Wonderbeauty Facebook Gruppe"
   }
 }

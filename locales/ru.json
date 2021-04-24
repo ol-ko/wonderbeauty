@@ -1,6 +1,20 @@
 {
   "back": "Назад к \"{text}\"",
-  "services": {
-    "nails": "Маникюр и педикюр"
+  "servicesPrices": "Услуги и цены",
+  "otherServices": "Другие услуги",
+  "appointments": "Запись",
+  "address": "Наш адрес",
+  "parking": "Парковка",
+  "min": "мин",
+  "nav": {
+    "studio": "Студия",
+    "services": "Наши услуги",
+    "contact": "Контакт"
+  },
+  "instagram": {
+    "alt": "Wonderbeauty Instagram"
+  },
+  "facebook": {
+    "alt": "Wonderbeauty Facebook группа"
   }
 }
