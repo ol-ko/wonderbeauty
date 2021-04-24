@@ -1,6 +1,6 @@
 {
-  "title": "Hair",
-  "summary": "All kinds of hair cuts and coloring, stylist advice, damaged hair treatments.",
+  "title": "Парикмахерские услуги",
+  "summary": "все виды стрижек, окрашиваний и ухода за волосами. Практически все наши клиенты становятся постоянными: побывав у нас один раз, они с тех пор доверяют свои волосы только нам.",
   "description": "",
   "service_groups": [
     "haircuts",
@@ -13,24 +13,24 @@
   "slug": "hair",
   "highlights": [
     {
-      "heading": "Expert hair care",
-      "text": "Our hairdressers continuously improve their cutting and dyeing techniques by attending masterclasses, seminars and learning from the industry experts."
+      "heading": "Профессионализм",
+      "text": "Наши парикмахеры виртуозно владеют всеми техниками стрижки и окраски, непрерывно совершенствуют свое мастерство, посещают семинары и мастер-классы, проходят обучение у ведущих европейских специалистов. Главные принципы нашей работы – мастерство, творчество и постоянное развитие."
     },
     {
-      "heading": "We listen. We create. We advise",
-      "text": "We make our clients' ideas come true. Not sure exactly, what kind of hairstyle you want? Our stylists can come up with suggestions taking your unique features and taste into account."
+      "heading": "Мы создаем уникальные образы",
+      "text": "Мы не копируем чужие идеи и не стрижем «под одну гребенку», а находим индивидуальный подход к каждому клиенту."
     },
     {
-      "heading": "Only quality products",
-      "text": "We use the best professional luxury products that provide gentle hair care."
+      "heading": "Профессиональные средства класса люкс",
+      "text": "Мы никогда не экономим на инструментах и материалах. Мы отбираем лучшие профессиональные средства класса люкс, обеспечивающие бережный уход за волосами."
     },
     {
-      "heading": "Dry and brittle hair? Split ends?",
-      "text": "Our hair experts are able to solve the most complex problems."
+      "heading": "Мы лечим",
+      "text": "Сухие, ломкие, секущиеся волосы? Приходите к нам – и вскоре вы их не узнаете! Наши мастера знают о волосах все и умеют решать самые сложные проблемы."
     },
     {
-      "heading": "We help to maintain results",
-      "text": "We will advise you how to maintain a new hairstyle, preserve hair color for a long time and which products to choose."
+      "heading": "Мы консультируем",
+      "text": "Наши мастера расскажут, как ухаживать за волосами, как поддерживать новую прическу, как надолго сохранить цвет, какие средства для ухода и укладки выбрать."
     }
   ]
 }

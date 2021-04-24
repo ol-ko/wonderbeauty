@@ -1,1 +1,11 @@
-{}
+{
+  "services": [
+    "root-touch-up",
+    "hair-toning",
+    "highlights-full-head",
+    "highlights-roots",
+    "ombré-balayage"
+  ],
+  "title": "Окрашивание",
+  "description": "Мы бережно заботимся о ваших волосах, используя лучшие профессиональные средства (La Biosthetique, Wella Color Touch, organic Previa Natural Haircare), которые обеспечивают не только безупречное окрашивание, но и защиту волос. Кроме того, мы используем средства Olaplex для дополнительной защиты и предотвращения повреждений."
+}

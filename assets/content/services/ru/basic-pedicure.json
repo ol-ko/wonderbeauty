@@ -1,3 +1,6 @@
 {
-  "price": "95"
+  "title": "Basic pedicure",
+  "price": "95",
+  "description": "Combined pedicure, cream and cuticle oil.",
+  "duration": "50"
 }

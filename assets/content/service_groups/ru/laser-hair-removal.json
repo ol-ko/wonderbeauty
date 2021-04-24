@@ -1,1 +1,27 @@
-{}
+{
+  "title": "Лазерная эпиляция",
+  "services": [
+    "upper-lip-2",
+    "chin",
+    "upper-lip-and-chin",
+    "face",
+    "neck",
+    "face-and-neck",
+    "underarm-2",
+    "lower-or-upper-arms",
+    "hands",
+    "full-arms",
+    "full-arms-and-hands",
+    "arms-hands-underarms",
+    "bikini-zone",
+    "full-intim-zone",
+    "buttocks",
+    "half-leg-upper-or-lower",
+    "feet",
+    "full-legs",
+    "full-legs-and-feet",
+    "full-legs-and-bikini-zone-feet-included",
+    "full-legs-and-brazilian-feet-included",
+    "full-legs-arms-and-brazilian-underarms-included"
+  ]
+}

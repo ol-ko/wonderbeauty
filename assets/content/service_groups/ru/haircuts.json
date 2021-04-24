@@ -1,1 +1,10 @@
-{}
+{
+  "title": "Стрижки",
+  "description": "Мытье головы входит в стоимость",
+  "services": [
+    "womens-haircut",
+    "girls-haircut",
+    "mens-haircut",
+    "boys-haircut"
+  ]
+}

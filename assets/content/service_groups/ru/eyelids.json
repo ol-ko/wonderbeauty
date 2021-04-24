@@ -1,1 +1,11 @@
-{}
+{
+  "title": "Веки",
+  "description": "Перманентный макияж век избавит вас от ежедневного нанесения мейкапа, «распахнет» взгляд, сделает глаза визуально больше, а ресницы – гуще. Здесь используются две основных техники, но для придания взгляду большей выразительности их можно совместить.",
+  "services": [
+    "lash-line-thickening-top-or-bottom-lid",
+    "lash-line-thickening-both-lids",
+    "eyeliner-top-lid",
+    "eyeliner-bottom-lid",
+    "eyeliner-eyeshadow"
+  ]
+}

@@ -1,7 +1,14 @@
 {
   "services": [
     "basic-manicure",
-    "manicure-with-color-polish"
+    "manicure-with-color-polish",
+    "manicure-with-gel-polish",
+    "french-manicure",
+    "nails-extension-full-set",
+    "nails-refill",
+    "nail-repair-hands",
+    "mens-manicure",
+    "childrens-manicure"
   ],
   "title": "Маникюр"
 }

@@ -1,1 +1,10 @@
-{}
+{
+  "title": "Другие виды массажей",
+  "services": [
+    "vacuum-massage",
+    "relaxing-aroma-massage",
+    "sport-massage",
+    "taping"
+  ],
+  "description": "Вакуумный массаж, спортивный массаж, тейпирование."
+}

@@ -1,6 +1,6 @@
 {
-  "title": "Eyebrows and eyelashes",
-  "summary": "Eyebrow shaping and coloring. Eyelash extensions, treatments and coloring.",
+  "title": "Брови и ресницы",
+  "summary": "Оформление и окраска бровей. Наращивание и окрашивание ресниц, уход за ресницами.",
   "description": "",
   "service_groups": [
     "eyebrows",
@@ -10,20 +10,20 @@
   "slug": "eyebrows-and-eyelashes",
   "highlights": [
     {
-      "heading": "Variety of techniques and effects",
-      "text": "Fancy natural eyelashes that look natural? Or would you rather prefer Hollywood volume? Whatever your preference is, our experts are able to make it happen."
+      "heading": "Самые разные техники и эффекты",
+      "text": "Все виды наращивания ресниц, самые разные техники и эффекты. Хотите естественные ресницы, которые выглядят как натуральные? Или вам по душе голливудский объем? Все зависит только от вашего желания: мы воплотим в жизнь любую фантазию!"
     },
     {
-      "heading": "Safety means quality materials",
-      "text": "We only use the best non-toxic professional materials and high quality tools. Our experts will perform tests for allergic reactions before the procedure."
+      "heading": "Качественные и нетоксичные материалы",
+      "text": "Мы используем только лучшие профессиональные материалы и инструменты премиум-класса, а перед нанесением делаем тест на возможную аллергическую реакцию."
     },
     {
-      "heading": "Individual approach",
-      "text": "We take the eye shape, colour and other unique features, as well as style of each client into account, helping to reveal and emphasise the natural beauty."
+      "heading": "Индивидуальный подход",
+      "text": "Моделирование взгляда – это искусство, и здесь не может быть одинаковых решений. Мы учитываем разрез глаз, цветотип, уникальные особенности внешности и стиля каждого клиента, помогая раскрыть и подчеркнуть природную красоту."
     },
     {
-      "heading": "Enhancing natural eyelashes",
-      "text": "Lengthening and adding volume to natural eyelashes through the process of lamination. The look becomes more expressive, eyelashes look thicker and longer - no need for daily makeup."
+      "heading": "Ламинирование ресниц",
+      "text": "Удлинение и придание объема естественным ресницам с помощью профессионального состава. Взгляд становится выразительнее, ресницы выглядят густыми и длинными, отпадает необходимость в ежедневном макияже."
     }
   ]
 }
