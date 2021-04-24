@@ -1,6 +1,6 @@
 {
-  "title": "Permanent makeup",
-  "summary": "Permanent makeup for lips, eyelids, eyebrows.",
+  "title": "Dauerhaftes Make-up",
+  "summary": "Dauerhaftes Make-up: Lippen, Augenlider, Augenbrauen.",
   "description": "",
   "service_groups": [
     "eyebrows-permanent-makeup",
@@ -12,20 +12,20 @@
   "slug": "permanent-makeup",
   "highlights": [
     {
-      "heading": "Correct or enhance your appearance",
-      "text": "Perfect makeup that doesn't need to be applied and rinsed off daily? Permanent makeup is not only that. It can \"open up\" your eyes, make your face more expressive, visually enlarge your eyes or lips, adjust their shape, even out asymmetries, mask any scars and other skin defects."
+      "heading": "Erstaunliche Ergebnisse",
+      "text": "Das perfekte Make-up, das nicht jeden Morgen aufgetragen und nachts abgespült werden muss. Ist das ein Traum? Nein, das ist die Realität! Und dies ist nicht das einzige Argument fürs Permanent Make-up! Mit Permanent Make-up können Sie erstaunliche Ergebnisse erzielen: „Öffnen“ Sie beispielsweise Ihre Augen, machen Sie Ihr Gesicht ausdrucksvoller, vergrößern Sie Ihre Augen oder Lippen visuell, passen Sie ihre Form an, gleichen Sie Asymmetrien aus, maskieren Sie Narben und andere Hautfehler."
     },
     {
-      "heading": "Alternative to plastic surgery",
-      "text": "The effect of permanent makeup in some cases is comparable to plastic surgery - only, unlike the prior, it is an absolutely safe and fast procedure that does not require any long preparation, surgical intervention, or long recovery."
+      "heading": " Eine sichere Alternative zur plastischen Chirurgie",
+      "text": "Die Wirkung von permanent Make-up ist in einigen Fällen vergleichbar mit plastischer Chirurgie - nur ist es im Gegensatz zum vorherigen ein absolut sicheres und schnelles Verfahren, das keine lange Vorbereitung, keinen chirurgischen Eingriff oder lange Rehabilitation erfordert."
     },
     {
-      "heading": "Natural look",
-      "text": "Experts working at our studio achieve absolutely natural looking results."
+      "heading": "Natürliche Schönheit",
+      "text": "Unsere Meister machen permanent Make-up so, dass es immer noch ganz natürlich aussieht."
     },
     {
-      "heading": "Long lasting results",
-      "text": "The result will remain with you for years!"
+      "heading": "Lang anhaltende Ergebnisse",
+      "text": "Das Ergebnis bleibt Ihnen jahrelang erhalten!"
     }
   ]
 }

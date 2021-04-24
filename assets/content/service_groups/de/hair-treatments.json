@@ -1,1 +1,10 @@
-{}
+{
+  "title": "Hair treatments",
+  "services": [
+    "hair-botox",
+    "keratin-treatment",
+    "noxx-reconstructive-treatment",
+    "scalp-treatment",
+    "hair-permanent"
+  ]
+}

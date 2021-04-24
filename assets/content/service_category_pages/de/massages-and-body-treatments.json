@@ -1,6 +1,6 @@
 {
   "title": "Massages and body treatments",
-  "summary": "Classic, sports, relaxing massages. Anti-cellulite treatments. Body wraps.",
+  "summary": "Klassische, sportliche, entspannende Massage. Bekämpfung von Cellulite. Körperpflegebehandlungen.",
   "description": "",
   "order": 3,
   "slug": "massages-and-body-treatments",
@@ -14,16 +14,16 @@
   ],
   "highlights": [
     {
-      "heading": "Various massages",
-      "text": "We offer all kinds of massages: classic, sports, relaxing as well as complex treatments aimed at body shaping and fighting cellulite. Our body wraps will be a perfect add-on to the your massage program."
+      "heading": "Vielzahl von Massagearten",
+      "text": "Wir bieten eine Vielzahl von Massagearten an: klassisch, sportlich, entspannend. Einen besonderen Platz in unserem Angebot nehmen komplexe Behandlungen zur Körperformung und zur Bekämpfung von Cellulite ein. Darüber hinaus sind unsere Körperpflegebehandlungen (wie z.B. Körperpackungen) eine perfekte Ergänzung zum ausgewählten Massageprogramm."
     },
     {
-      "heading": "Massage experts",
-      "text": "Our team of experienced professionals masters various techniques brilliantly and will help you choose the type of massage that is optimal for your physical condition and goals."
+      "heading": "Erfahrene Fachleute",
+      "text": "Unser Team besteht aus Fachleuten mit eigener immensen Erfahrung: Sie beherrschen nicht nur verschiedene Techniken hervorragend, sondern können sie auch die Art der Massage auswählen, die für eine bestimmte Person optimal ist, basierend auf ihrer körperlichen Verfassung und ihren Zielen."
     },
     {
-      "heading": "Best products and equipment",
-      "text": "The use of quality products and equipment guarantees safety and maximum efficiency of all our treatments."
+      "heading": "Hochwertige Werkzeuge und Materialien",
+      "text": "Die Beherrschung unserer Masseure in Kombination mit erstklassiger Ausstattung garantiert die Sicherheit und maximale Effizienz aller unserer Behandlungen."
     }
   ]
 }

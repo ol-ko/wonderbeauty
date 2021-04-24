@@ -1,6 +1,6 @@
 {
-  "title": "Nails",
-  "summary": "Manicure, pedicure, SPA procedures, broken and peeling nail treatments, express services.",
+  "title": "Maniküre und Pediküre",
+  "summary": "Maniküre, Pediküre, Pflegebehandlungen, SPA-Prozeduren für Hände und Füsse.",
   "service_groups": [
     "manicure",
     "pedicure",
@@ -11,24 +11,24 @@
   "slug": "nails",
   "highlights": [
     {
-      "heading": "Expert nail care",
-      "text": "Our nail care professionals are certified experts that sincerely love their work and never stop learning."
+      "heading": "Professionalität",
+      "text": "Wir sind wirklich stolz auf unseren Experten. Sie sind echte Nagelpflegeexperten mit enormer Erfahrung, die ihre Arbeit aufrichtig lieben und kreativ in ihrer Herangehensweise sind."
     },
     {
-      "heading": "Certified premium materials",
-      "text": "We never compromise on the quality of tools or materials, which makes our manicures flawless and long-lasting."
+      "heading": "Werkzeuge und Materialien der führenden Marken",
+      "text": "Wir sparen niemals Kosten für Werkzeuge und Materialien. Wir verwenden nur zertifizierte professionelle Premium-Materialien der führenden Marken, um Servicequalität und sanfte Nagelpflege zu gewährleisten."
     },
     {
-      "heading": "Safety is a priority",
-      "text": "All our instruments go through a multiple-stage hospital-grade sterilisation and disinfection process and we only use disposable files."
+      "heading": "Sicherheit ist unsere Priorität",
+      "text": "Alle unsere Instrumente wurden mit einem mehrstufigen Sterilisations- und Desinfektionsprozess (fast wie in einem Operationssaal!) gereinigt. Wir verwenden nur die Einwegnagelfeile und solche ähnlichen Materialien."
     },
     {
-      "heading": "Nails breaking or peeling off?",
-      "text": "Our nail experts use modern proven ways to strengthen, restore, treat and align your nails. We can work even with the most difficult cases."
+      "heading": "Nägel brechen und schälen sich ab?",
+      "text": "Wir können doch helfen! Unter Berücksichtigung unseres Fachwissens nutzen wir die modernsten Methoden, um die Nägel zu stärken, wiederherzustellen, zu behandeln und auszurichten, und wir können auch in den schwierigsten Fällen Ihnen unterstützen."
     },
     {
-      "heading": "In a hurry?",
-      "text": "Our staff will provide you with a “four-hands” or express manicure service: a perfect result twice as fast!"
+      "heading": "Haben Sie Eile?",
+      "text": "Unsere Meister bieten Ihnen einen „Vierhand“- oder Express-Maniküre-Service: ein doppelt so schnelles perfektes Ergebnis!"
     }
   ]
 }

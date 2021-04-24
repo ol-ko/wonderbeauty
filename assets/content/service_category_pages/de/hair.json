@@ -1,6 +1,6 @@
 {
-  "title": "Hair",
-  "summary": "All kinds of hair cuts and coloring, stylist advice, damaged hair treatments.",
+  "title": "Coiffeur Service",
+  "summary": "alle Arten von Haarschnitten, Haarfärbemitteln und Haarpflege.",
   "description": "",
   "service_groups": [
     "haircuts",
@@ -13,24 +13,24 @@
   "slug": "hair",
   "highlights": [
     {
-      "heading": "Expert hair care",
-      "text": "Our hairdressers continuously improve their cutting and dyeing techniques by attending masterclasses, seminars and learning from the industry experts."
+      "heading": "Professionalität",
+      "text": "Unsere Coiffeure beherrschen alle Haarschnitte und Färbetechniken perfekt, verbessern kontinuierlich ihre Fähigkeiten, besuchen Seminare und Weiterbildungskurse und werden von verschiedenen führenden europäischen Experten geschult. Die Hauptprinzipien unserer Arbeit sind Professionalität, Kreativität und kontinuierliche Weiterentwicklung."
     },
     {
-      "heading": "We listen. We create. We advise",
-      "text": "We make our clients' ideas come true. Not sure exactly, what kind of hairstyle you want? Our stylists can come up with suggestions taking your unique features and taste into account."
+      "heading": "Individueller Ansatz",
+      "text": "Wir kopieren keinen Ideen anderer Leute und machen keine „one size fits all“ Frisuren, sondern finden für jeden Kunden einen individuellen Ansatz."
     },
     {
-      "heading": "Only quality products",
-      "text": "We use the best professional luxury products that provide gentle hair care."
+      "heading": "Werkzeuge und Materialien der führenden Marken",
+      "text": "Wir sparen niemals unsere Kosten für Werkzeuge und Materialien. Wir wählen die besten professionellen Luxusprodukte aus, die eine sanfte Haarpflege bieten."
     },
     {
-      "heading": "Dry and brittle hair? Split ends?",
-      "text": "Our hair experts are able to solve the most complex problems."
+      "heading": "Wir kümmern uns um Ihre Haare",
+      "text": "Haben Sie trockene, gespaltene Haarspitzen? Besuchen Sie uns - und bald werden Sie sie nicht mehr erkennen! Unsere Meister wissen alles über Haare und sind in der Lage, die komplexesten Probleme zu lösen."
     },
     {
-      "heading": "We help to maintain results",
-      "text": "We will advise you how to maintain a new hairstyle, preserve hair color for a long time and which products to choose."
+      "heading": "Wir beraten",
+      "text": "Unsere Meister werden Ihnen sagen, wie Sie Ihr Haar pflegen, wie Sie eine neue Frisur pflegen, wie Sie die Farbe für lange Zeit bewahren, welche Pflege- und Stylingprodukte Sie auswählen müssen usw."
     }
   ]
 }

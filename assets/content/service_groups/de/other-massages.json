@@ -1,6 +1,9 @@
 {
+  "title": "Other massages",
   "services": [
-    "gua-sha-full-body-massage",
-    "gua-sha-one-zone-massage"
+    "vacuum-massage",
+    "relaxing-aroma-massage",
+    "sport-massage",
+    "taping"
   ]
 }
