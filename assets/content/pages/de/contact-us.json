@@ -1,1 +1,21 @@
-{}
+{
+  "address": "Riedmatt 4, 6330 Zug",
+  "parking": "Aussenparkplätze (Num. 1 - 5) sind für unsere Kunden reserviert.",
+  "contacts": [
+    {
+      "name": "Olesya Plakhotna",
+      "phone": "+41 76 57 77 649",
+      "info": "(Alle Termine)"
+    },
+    {
+      "name": "Nataliya Shendrik",
+      "phone": "+41 77 441 50 45",
+      "info": "(Coiffeur Service und Dauerhaftes Make-up)"
+    },
+    {
+      "name": "Irina Aristova",
+      "phone": "+41 76 250 51 57",
+      "info": "(Maniküre und Pediküre)"
+    }
+  ]
+}
