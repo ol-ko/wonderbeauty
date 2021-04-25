@@ -1,6 +1,6 @@
 <template>
   <div :class="$style.mobileMenuWrapper">
-    <IconButton @click="toggleMenu" :label="$t('nav.open')" icon="bars-solid" :class="$style.mobileMenuButton" v-click-outside="closeMenu"></IconButton>
+    <IconButton @click="toggleMenu" :label="$t('nav.open')" :icon="MenuIcon" :class="$style.mobileMenuButton" v-click-outside="closeMenu"></IconButton>
     <div :class="[$style.background, { [$style.backgroundVisible]: isMenuOpen}]" @click="closeMenu"></div>
     <div :aria-hidden="!isMenuOpen" :class="[$style.mobileMenu, { [$style.menuOpen]: isMenuOpen}]">
       <nav :class="$style.nav">
@@ -29,7 +29,7 @@
           </li>
         </ul>
       </nav>
-      <IconButton :label="$t('nav.close')" icon="times-solid" :class="$style.closeButton"></IconButton>
+      <IconButton :label="$t('nav.close')" :icon="CloseIcon" :class="$style.closeButton"></IconButton>
       <SocialMediaLinks></SocialMediaLinks>
       <LanguageSwitch></LanguageSwitch>
     </div>
@@ -40,13 +40,17 @@
 import LanguageSwitch from '~/components/LanguageSwitch.vue'
 import SocialMediaLinks from '~/components/SocialMediaLinks.vue'
 import IconButton from '~/components/IconButton.vue'
+import MenuIcon from '@/assets/images/icons/bars-solid.svg?raw';
+import CloseIcon from '@/assets/images/icons/times-solid.svg?raw';
 import { clickOutside } from '~/directives/clickOutside'
 
 export default {
   components: { LanguageSwitch, SocialMediaLinks, IconButton },
   data() {
     return {
-      isMenuOpen: false
+      isMenuOpen: false,
+      MenuIcon,
+      CloseIcon
     }
   },
   directives: {

@@ -37,6 +37,7 @@ export default {
 .icon {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .default {
@@ -49,6 +50,11 @@ export default {
 .s {
   svg {
     height: $font-size-s;
+  }
+}
+.xl {
+  svg {
+    height: $font-size-xl;
   }
 }
 </style>

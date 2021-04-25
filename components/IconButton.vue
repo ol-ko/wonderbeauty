@@ -1,11 +1,14 @@
 <template>
   <button @click="$emit('click')" :aria-label="label" :class="$style.iconButton">
-    <img :src="require(`~/assets/images/icons/${icon}.svg`)" alt="">
+    <Icon :icon="icon" size="xl"></Icon>
   </button>
 </template>
 
 <script>
+import Icon from '~/components/Icon'
+
 export default {
+  components: { Icon },
   props: {
     label: {
       type: String,
