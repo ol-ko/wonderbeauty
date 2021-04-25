@@ -1,6 +1,5 @@
 <template>
   <div :class="$style.categoryPage">
-    <BackLink path="/services" :text="$t('nav.services')"></BackLink>
     <h1>{{ category.title }}</h1>
     <Highlights :highlights="category.highlights"></Highlights>
     <div v-if="category.description"
@@ -12,14 +11,14 @@
     <section>
       <h2>{{ $t('servicesPrices') }}</h2>
 
-      <section v-for="group in category.service_groups">
+      <section v-for="group in category.serviceGroupsData">
         <h3>{{group.title}}</h3>
         <p v-if="group.description"
            :class="$style.subcategoryDescription">
           {{group.description}}
         </p>
         <ul :class="$style.priceListItems">
-          <li v-for="service in group.services">
+          <li v-for="service in group.servicesData">
             <div :class="$style.titleAndPrice">
               <h4 :class="$style.title">{{ service.title }}</h4>
               <span :class="$style.price"> {{ service.price }} {{currency}} </span>
@@ -59,20 +58,24 @@ export default {
       return { category: {...payload, name: params.category} }
     }
 
-    const categoryPromises = env.serviceCategories.map(serviceCategory => require(`@/assets/content/service_category_pages/${app.i18n.locale}/${serviceCategory}.json`));
-    const categories = await Promise.all(categoryPromises);
+    const categories = env.categories[app.i18n.locale];
+    const category = categories.find(c => c.slug === params.category);
 
-    const category = await require(`@/assets/content/service_category_pages/${app.i18n.locale}/${params.category}.json`);
+    category.serviceGroupsData = [];
 
     for (let i = 0; i < category['service_groups'].length; i++) {
       const serviceGroupName = category['service_groups'][i];
       const serviceGroup = await require(`@/assets/content/service_groups/${app.i18n.locale}/${serviceGroupName.toLowerCase()}.json`);
-      console.log(serviceGroup);
+
+      serviceGroup.servicesData = [];
+
       for (let j = 0; j < serviceGroup.services.length; j++) {
         const serviceName = serviceGroup.services[j];
-        serviceGroup.services[j] = await require(`@/assets/content/services/${app.i18n.locale}/${serviceName.toLowerCase()}.json`);
+        const servicesData = await require(`@/assets/content/services/${app.i18n.locale}/${serviceName.toLowerCase()}.json`);
+        serviceGroup.servicesData.push(servicesData);
       }
-      category['service_groups'][i] = serviceGroup;
+
+      category.serviceGroupsData.push(serviceGroup);
     }
 
     return {

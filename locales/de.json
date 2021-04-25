@@ -7,6 +7,8 @@
   "parking": "Parken",
   "min": "min",
   "nav": {
+    "open": "Navigation öffnen",
+    "close": "Navigation schliessen",
     "studio": "Studio",
     "services": "Unsere Leistungen",
     "contact": "Kontakte"

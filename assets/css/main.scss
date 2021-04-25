@@ -2,12 +2,16 @@
 @import 'variables';
 @import 'typography';
 
-@media (min-width: $viewport-lg-min) {
-  body {
-    background: url("../images/background.jpg");
-    background-size: 520px;
-  }
+* {
+  box-sizing: border-box;
 }
+
+//@media (min-width: $viewport-lg-min) {
+//  body {
+//    background: url("../images/background.jpg");
+//    background-size: 520px;
+//  }
+//}
 
 a {
   text-decoration: none;

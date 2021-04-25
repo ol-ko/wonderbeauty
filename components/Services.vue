@@ -5,13 +5,13 @@
         <nuxt-link :to="localePath(`/services/${service.slug}`)">
           <img
             :srcset="
-              `/img/${service.slug}_888x599.jpg 888px,
-               /img/${service.slug}_552x372.jpg 552px,
-               /img/${service.slug}_444x299.jpg 444,
-               /img/${service.slug}_276x186.jpg 276px`
+              `/img/${service.slug}_888_599.jpg 888w,
+               /img/${service.slug}_552_372.jpg 552w,
+               /img/${service.slug}_444_299.jpg 444w,
+               /img/${service.slug}_276_186.jpg 276w`
             "
             sizes="(max-width: 599px) 100vw, (max-width: 959px) 50vw, 200px"
-            :src="`/img/${service.slug}_552x372.jpg`"
+            :src="`/img/${service.slug}_552_372.jpg`"
             :alt="service.title"
           />
         </nuxt-link>
@@ -31,7 +31,7 @@
 export default {
   props: {
     categories: Array,
-    currentCategory: String
+    currentCategory: Object
   },
   computed: {
     services() {

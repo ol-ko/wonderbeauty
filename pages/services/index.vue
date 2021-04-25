@@ -12,8 +12,7 @@ export default {
     Services
   },
   async asyncData({ env, app }) {
-    const categoryPromises = env.serviceCategories.map(serviceCategory => require(`@/assets/content/service_category_pages/${app.i18n.locale}/${serviceCategory}.json`));
-    const categories = await Promise.all(categoryPromises);
+    const categories = env.categories[app.i18n.locale];
     return {
       categories: categories.sort((a, b) =>  a.order - b.order)
     }

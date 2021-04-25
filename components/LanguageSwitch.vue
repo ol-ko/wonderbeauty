@@ -1,119 +1,60 @@
 <template>
-  <div :class="$style.languageSwitch">
-    <div v-if="mode === 'dropdown'">
-      <button :class="$style.dropdownButton" @click="toggleDropdown()">
-        {{$i18n.locale}} <span v-html="isDropdownVisible ? '▲' : '▼'"></span>
-      </button>
-      <div v-if="isDropdownVisible" :class="$style.dropdown">
-        <nuxt-link
-          v-for="locale in $i18n.locales.filter(l => l !== $i18n.locale)"
-          :key="locale"
-          @click.native="closeDropdown()"
-          :to="switchLocalePath(locale)">{{ locale }}</nuxt-link>
-      </div>
-    </div>
-    <div v-else :class="$style.languageSwitchSimple">
-      <span v-for="locale in $i18n.locales">
+  <ul :class="$style.languageSwitch">
+    <li v-for="locale in locales">
         <nuxt-link
           v-if="locale !== $i18n.locale"
           :key="locale"
+          @click.native="onLangSwitch"
           :to="switchLocalePath(locale)">{{ locale }}</nuxt-link>
         <span v-else>
           {{locale}}
         </span>
-      </span>
-
-    </div>
-  </div>
+      </li>
+  </ul>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      isDropdownVisible: false
-    }
-  },
   props: {
-    mode: {
-      type: String,
+    hideCurrent: {
+      type: Boolean,
+      default: false
+    },
+    langSwitchAction: {
+      type: Function,
       required: false
     }
   },
+  computed: {
+    locales() {
+      return this.hideCurrent ? this.$i18n.locales.filter(l => l !== this.$i18n.locale) : this.$i18n.locales;
+    }
+  },
   methods: {
-    toggleDropdown() {
-      this.isDropdownVisible = !this.isDropdownVisible;
-    },
-    closeDropdown() {
-      this.isDropdownVisible = false;
+    onLangSwitch() {
+      if (this.langSwitchAction) {
+        this.langSwitchAction();
+      }
     }
   }
 }
 </script>
+
 <style lang="scss" module>
 @import '@/assets/css/variables.scss';
 @import '@/assets/css/mixins.scss';
 
 .languageSwitch {
+  @include clear-list;
+  display: flex;
+
   a, span {
     text-transform: uppercase;
     display: inline-block;
-    width: 44px;
-    height: 44px;
-    line-height: 44px;
+    width: $clickable-item-size;
+    height: $clickable-item-size;
+    line-height: $clickable-item-size;
     text-align: center;
-  }
-}
-
-.languageSwitchSimple {
-  width: 132px;
-}
-
-.dropdownWrapper {
-  position: relative;
-}
-
-.dropdownButton {
-  border: none;
-  display: flex;
-  background: none;
-  text-transform: uppercase;
-  height: 44px;
-  width: 48px;
-  line-height: 44px;
-  font-weight: bold;
-  color: $color-brand-primary;
-  background: white;
-
-  @media (min-width: $viewport-md-min) {
-    margin-top: 4px;
-  }
-
-  &:hover,&:active,&:focus {
-    outline: 2px solid $color-brand-primary;
-  }
-
-  span {
-    width: auto;
-    font-size: 0.5em;
-    margin-left: 0.5em;
-  }
-}
-
-.dropdown {
-  position: absolute;
-  background: white;
-  outline: 2px solid $color-brand-primary;
-  z-index: 1;
-  width: 48px;
-
-  a {
-    display: block;
-    width: 100%;
-  }
-
-  a + a {
-    border-top: 2px solid $color-brand-primary;
   }
 }
 </style>

@@ -10,6 +10,8 @@
     "nails": "Nails"
   },
   "nav": {
+    "open": "Open navigation",
+    "close": "Close navigation",
     "studio": "Studio",
     "services": "Our services",
     "contact": "Contact us"

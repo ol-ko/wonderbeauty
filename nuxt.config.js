@@ -1,5 +1,6 @@
 import glob from 'glob';
 import path from 'path';
+import fs from 'fs';
 
 import * as SITE_INFO from './assets/content/site/info.json'
 import { locales, defaultLocale, messages } from './locales';
@@ -22,9 +23,19 @@ function getDynamicPaths(urlFilepathTable, cwdPath) {
 
 const serviceCategoriesGlob = 'service_category_pages/en/*.json';
 
-const serviceCategories = glob.sync(serviceCategoriesGlob, { cwd: dynamicContentPath }).map(filepath => {
-  return path.basename(filepath, '.json');
-});
+function getCategoriesForLocale(locale) {
+  const directory = 'assets/content/service_category_pages';
+  return fs.readdirSync(path.resolve(`${directory}/${locale}`))
+    .filter(name => path.extname(name) === '.json')
+    .map(name => require(path.resolve(`${directory}/${locale}/${name}`)))
+    .sort((a, b) =>  a.order - b.order)
+}
+
+const categories = {
+  en: getCategoriesForLocale('en'),
+  de: getCategoriesForLocale('de'),
+  ru: getCategoriesForLocale('ru')
+}
 
 const dynamicRoutes = getDynamicPaths(
   {
@@ -43,8 +54,6 @@ const languagePrefixedRoutes = locales.map(locale =>
   )
 ).flat();
 
-console.log(languagePrefixedRoutes);
-
 export default {
   target: 'static',
   env: {
@@ -53,7 +62,7 @@ export default {
         ? process.env.URL
         : 'http://localhost:3000',
     lang: SITE_INFO.sitelang || 'en-US',
-    serviceCategories: serviceCategories
+    categories
   },
   /*
    ** Headers of the page
@@ -83,6 +92,7 @@ export default {
   },
   buildModules: ['@nuxtjs/svg', '@nuxtjs/pwa'],
   modules: ['@nuxtjs/markdownit', 'nuxt-i18n'],
+  plugins: ['~/plugins/categories.js'],
   markdownit: {
     injected: true
   },
