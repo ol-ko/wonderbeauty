@@ -46,7 +46,10 @@ export default {
 
 .languageSwitch {
   @include clear-list;
-  display: flex;
+
+  li {
+    text-align: center;
+  }
 
   a, span {
     text-transform: uppercase;
@@ -56,5 +59,15 @@ export default {
     line-height: $clickable-item-size;
     text-align: center;
   }
+
+  @media (max-width: $viewport-lg-min) {
+    display: flex;
+
+    a {
+      margin: 0;
+    }
+  }
 }
+
+
 </style>

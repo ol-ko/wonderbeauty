@@ -11,7 +11,9 @@
     "close": "Закрыть меню сайта",
     "studio": "Студия",
     "services": "Наши услуги",
-    "contact": "Контакты"
+    "contact": "Контакты",
+    "book": "Записаться онлайн",
+    "bookOnlineLink": "https://book.plandok.com/ru/n-a-vmjhwn"
   },
   "instagram": {
     "alt": "Wonderbeauty Instagram"

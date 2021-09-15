@@ -55,6 +55,8 @@ export default {
 @import '@/assets/css/variables.scss';
 @import '@/assets/css/mixins.scss';
 
+$navPaddingH: (($clickable-item-size - $line-height-base * $font-size-base) / 2);
+
 .dropDownWrapper {
   position: relative;
 }
@@ -67,8 +69,8 @@ export default {
   background: white;
   position: absolute;
   margin-top: $clickable-item-size;
-  padding-top: $space-m;
-  padding-bottom: $space-m;
+  padding-top: $space-s;
+  padding-bottom: $space-s;
   border: 1px solid $color-brand-primary;;
   box-shadow: 4px 4px 0 0 rgba($color-brand-primary, 0.5);
 }
@@ -86,15 +88,15 @@ export default {
     padding-bottom: 0;
   }
   100% {
-    padding-top: $space-m;
-    padding-bottom: $space-m;
+    padding-top: $space-s;
+    padding-bottom: $space-s;
   }
 }
 
 .dropDownTrigger {
   border: 1px solid transparent;
   background: white;
-  padding: (($clickable-item-size - $line-height-base * $font-size-base) / 2) $space-m;
+  padding: $navPaddingH $space-s/2;
   font-weight: bold;
   position: relative;
   outline: none !important;
