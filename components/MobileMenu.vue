@@ -6,6 +6,11 @@
       <nav :class="$style.nav">
         <ul>
           <li>
+            <a :href="$t('nav.bookOnlineLink')" :class='$style.bookOnline'>
+              {{ $t('nav.book')}}
+            </a>
+          </li>
+          <li>
             <NuxtLink :to="localePath('/')" :exact-active-class="$style.linkActive">
               {{ $t('nav.studio') }}
             </NuxtLink>
@@ -136,5 +141,19 @@ export default {
 }
 .metaNavigation {
   display: flex;
+}
+
+.bookOnline {
+  border-radius: 3px;
+  color: $color-brand-primary;
+  border: 1px solid $color-brand-primary;
+  box-shadow: 4px 4px 0 0 rgba($color-brand-primary, 0.5);
+  margin: 0 $space-m 1rem $space-m;
+
+  &:hover, &:focus, &:active  {
+    background: $color-brand-primary;
+    color: white;
+    text-decoration: none;
+  }
 }
 </style>

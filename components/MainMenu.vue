@@ -68,6 +68,7 @@ $navItemPaddingH: $space-s / 2;
 
 .mainMenuWrapper {
   display: none;
+  margin-top: 16px;
 
   a {
     color: $color-text;
@@ -82,11 +83,11 @@ $navItemPaddingH: $space-s / 2;
   }
 
   .bookOnline {
-    margin: 0 $space-s / 2;
     border-radius: 3px;
     color: $color-brand-primary;
     border: $navItemBorderWidth solid $color-brand-primary;
     box-shadow: 4px 4px 0 0 rgba($color-brand-primary, 0.5);
+    margin: 0 $space-s / 2;
 
     &:hover, &:focus, &:active  {
       background: $color-brand-primary;
@@ -99,6 +100,10 @@ $navItemPaddingH: $space-s / 2;
 @media (min-width: $viewport-lg-min) {
   .mainMenuWrapper {
     display: flex;
+
+    nav > ul > li {
+      height: 55px;
+    }
   }
 }
 
@@ -118,7 +123,9 @@ $navItemPaddingH: $space-s / 2;
 }
 
 .subMenu {
-  width: 276px;
+  a {
+    white-space: nowrap;
+  }
 }
 
 .languageSwitchButton {

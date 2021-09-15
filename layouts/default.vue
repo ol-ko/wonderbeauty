@@ -49,7 +49,7 @@ export default {
   padding: $space-m;
 
   @media (min-width: $viewport-lg-min) {
-    padding: $space-m 0;
+    padding: $space-s 0;
   }
 }
 
