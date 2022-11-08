@@ -94,6 +94,7 @@ export default {
 
     .logo {
       flex: 1 0 auto;
+      display: block;
 
       img {
         height: 44px;
@@ -103,6 +104,7 @@ export default {
 
   .languageSwitch {
     flex-grow: 0;
+    display: flex;
   }
 }
 </style>
